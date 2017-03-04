@@ -1,0 +1,121 @@
+@charset "utf-8";
+
+@font-face {
+	font-family: 'Clear-Light';
+	src: url(fonts/AdobeClean-Light.otf);
+	font-style: normal;
+	font-weight: normal;
+}
+@font-face {
+	font-family: 'Clear-Bold';
+	src: url(fonts/AdobeClean-Bold.otf);
+	font-style: normal;
+	font-weight: normal;
+}
+
+body {
+	background-color: #f6f6f6;
+	margin: 0;
+	font-family: Clear-Light;
+}
+
+#content {
+	display: block;
+	float: left;
+	margin-top: 90px;
+	margin-left: 300px;
+}
+
+#hor_navbar {
+	display: block;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+#hor_navbar li {
+	display: inline;
+	margin-right: 35px;
+}
+
+#hor_navbar a {
+	font-size: 16px;
+	color: #6d6d6d;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+#sidebar {
+	position: absolute;
+	float: left;
+	width:  250px;
+	height: 100%;
+	background-color: white;
+}
+
+#logo {
+	display: block;
+	margin-top: 75px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#menu {
+	position: relative;
+	width: 105px;
+	margin: 150px auto;
+}
+
+#ver_navbar {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+#ver_navbar a {
+	display: block;
+	font-size: 18px;
+	color: #6d6d6d;
+	text-decoration: none;
+	text-transform: uppercase;
+	margin-bottom: 35px;
+}
+
+#pfworks {
+	margin-top: 65px;
+}
+
+#card_pfwork {
+	display: block;
+	width: 270px;
+	height: 340px;
+	background-color: white;
+}
+
+#card_img {
+	margin: 0;
+	background: "img/projects/smm.png";
+}
+
+#card_pfwork_descr {
+	padding: 35px 25px;
+	margin: 0;
+}
+
+#card_pfwork_descr h2 {
+	font-family: Clear-Bold;
+	font-size: 20px;
+	margin: 0;
+}
+
+#card_pfwork_descr a{
+	text-decoration: none;
+	color: black;
+}
+
+#card_pfwork_descr p{
+	font-size: 16px;
+	color: #535353;
+	margin: 0;
+	margin-top: 20px;
+}
