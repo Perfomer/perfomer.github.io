@@ -19,15 +19,6 @@ body {
 	font-family: Clear-Light;
 }
 
-a {
-	text-decoration: none;
-	
-}
-
-a:hover {
-	color: red;
-}
-
 #content {
 	display: block;
 	float: left;
@@ -52,10 +43,7 @@ a:hover {
 	color: #6d6d6d;
 	text-decoration: none;
 	text-transform: uppercase;
-	transition:  0.125s ease-out;
 }
-
-#hor_navbar a:hover {color: red;}
 
 #sidebar {
 	position: absolute;
@@ -91,51 +79,26 @@ a:hover {
 	text-decoration: none;
 	text-transform: uppercase;
 	margin-bottom: 35px;
-	transition:  0.125s ease-out;
 }
-
-#ver_navbar a:hover {color: red;}
 
 #pfworks {
 	margin-top: 65px;
-	clear: both;
 }
 
 #card_pfwork {
-	display: inline-block;
+	display: block;
 	width: 270px;
 	height: 340px;
 	background-color: white;
-	float: left;
-	margin: 10px;
-  	box-shadow: 0 2px 6px rgba(0, 0, 0, .1);
-  }
+}
 
 #card_img {
-	display: inline-block;
-	width: 270px;
-	height: 230px;
 	margin: 0;
-	overflow: hidden;
-  	vertical-align: top;
-}
-
-#card_img img {
-	display: block;
-	width: 270px;
-	height: 230px;
-	margin: 0;
-	transition: 0.125s ease-out;
-}
-
-#card_img img:hover {
-	transform: scale(1.12);
-    -webkit-filter: brightness(110%);
+	background: "img/projects/smm.png";
 }
 
 #card_pfwork_descr {
-	display: block;
-	padding: 25px;
+	padding: 35px 25px;
 	margin: 0;
 }
 
@@ -146,17 +109,13 @@ a:hover {
 }
 
 #card_pfwork_descr a{
+	text-decoration: none;
 	color: black;
-	transition:  0.125s ease-out;
-}
-
-#card_pfwork_descr a:hover{
-	color: red;
 }
 
 #card_pfwork_descr p{
 	font-size: 16px;
 	color: #535353;
 	margin: 0;
-	margin-top: 15px;
+	margin-top: 20px;
 }
