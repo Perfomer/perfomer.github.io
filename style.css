@@ -72,15 +72,15 @@ strong {font-family: Clear-Bold;}
 	margin-top: 75px;
 	margin-left: auto;
 	margin-right: auto;
-    cursor: pointer;
     fill: black;
 	transition: var(--anim-speed) ease-out;
 }
-
 #logo:hover {
-    fill: red;
+    fill: var(--main-color);
     transform: scale(1.05);
+    filter: drop-shadow(10px 10px 6px rgba(0, 0, 0, .1));
 }
+#logo:after {display: none;}
 
 #menu {
 	position: relative;
