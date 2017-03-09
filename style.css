@@ -67,10 +67,19 @@ strong {font-family: Clear-Bold;}
 
 #logo {
 	display: block;
+    width: 100px;
+    height: 100px;
 	margin-top: 75px;
 	margin-left: auto;
 	margin-right: auto;
     cursor: pointer;
+    fill: black;
+	transition: var(--anim-speed) ease-out;
+}
+
+#logo:hover {
+    fill: red;
+    transform: scale(1.05);
 }
 
 #menu {
